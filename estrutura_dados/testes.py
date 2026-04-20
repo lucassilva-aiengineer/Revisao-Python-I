@@ -19,6 +19,6 @@ def situacao1():
 
 def main():
     # situacao1() 
-
+    ...
 if __name__ == "__main__":
     main()
