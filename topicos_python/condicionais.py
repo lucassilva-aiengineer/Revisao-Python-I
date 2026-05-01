@@ -61,13 +61,22 @@ def condicionais_2()-> None:
         print("Agora o número 100 está na lista!")
 
 
+def verificar_idade(idade)-> None:
+
+    if idade >= 18:
+        print("Conta bancária criada!")
+
+    else: 
+        print("Você ainda não pode ter uma conta bancária!")
 
 
 def main():
 
     # gerar_nomes() 
 
-    condicionais_2()
+    # condicionais_2()
+
+    verificar_idade(15)
 
 
 if __name__ == '__main__':
